@@ -1,0 +1,19 @@
+---
+title: "Week 3 Assignment"
+
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation:
+    self_contained: true
+---
+
+## Introduction
+
+This is a presentation created for the Week 3 assignment.
+
+## Plotly Plot
+
+```{r plotly-plot, echo=FALSE}
+library(plotly)
+plot_ly(x = ~rnorm(100), type = "histogram")
+```
